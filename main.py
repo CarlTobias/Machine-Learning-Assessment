@@ -145,7 +145,8 @@ def selectedCrypto(selected):
     
     else:
         return "Error: Selected cryptocurrency not available"
-    
+
+# Additional Feature that allows uer to compare cryptocurrencies
 def compareCrypto(coinOne, coinTwo):
     if coinOne in WTMData.index and coinTwo in WTMData.index:
         try:
